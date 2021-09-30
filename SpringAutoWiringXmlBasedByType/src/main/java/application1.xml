@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+<bean class="com.example.ByType.Employee" name="emp" autowire="byType">
+<property name="name" value="satyam"></property>
+</bean>
+
+<bean class="com.example.ByType.Address" name="address" >
+<property name="city" value="vanaras"></property>
+<property name="state" value="jaunpur"></property>
+</bean>
+</beans>
